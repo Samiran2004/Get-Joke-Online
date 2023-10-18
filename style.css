@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainCont {
+    /* border: 2px solid green; */
+    position: relative;
+    height: 100vh;
+}
+
+#logo {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    font-size: 150px;
+}
+
+#jokeCont {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    left: 50%;
+    background-color: black;
+    color: white;
+}
+
+#getJokeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom: 50px;
+}
+
+#getJokeBtn button {
+    width: 250px;
+    height: 80px;
+    border-radius: 20px;
+}
+
+#punchLine {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    left: 50%;
+    background-color: black;
+    color: white;
+}
